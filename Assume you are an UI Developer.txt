@@ -1,7 +1,0 @@
-Assume you are an UI Developer,
-using React, React Router, redux and Tailwind CSS,
-create a awesome login page
-
-
-
-
