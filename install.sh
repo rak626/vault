@@ -5,7 +5,7 @@ sudo apt upgrade -y
 # Install nala
 sudo apt install nala -y
 
-# Installing Essential Programs 
+# Installing Essential Programs
 sudo nala install kitty gnome-tweaks gnome-shell-extension-manager git curl wget yt-dlp build-essential vim -y
 
 #installing snap packages
@@ -14,6 +14,7 @@ sudo snap refresh
 sudo snap install code --classic
 sudo snap install intellij-idea-community --classic
 sudo snap install spotify discord postman
+sudo snap install dbeaver-ce
 
 # brave download
 sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
@@ -31,6 +32,7 @@ mkdir java js
 # Add java projects
 cd java
 git clone https://github.com/rak626/JavaLearning.git
+git clone https://github.com/rak626/Spring-Learning.git
 
 cd ~
 # Github desktop setup
