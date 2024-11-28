@@ -15,6 +15,7 @@ sudo snap install code --classic
 sudo snap install intellij-idea-community --classic
 sudo snap install spotify discord postman
 sudo snap install dbeaver-ce
+sudo snap install redisinsight
 
 # brave download
 sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
