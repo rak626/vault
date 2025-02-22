@@ -16,14 +16,7 @@ sudo snap install intellij-idea-community --classic
 sudo snap install spotify discord postman
 sudo snap install dbeaver-ce
 sudo snap install redisinsight
-
-# brave download
-sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
-
-echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg] https://brave-browser-apt-release.s3.brave.com/ stable main"|sudo tee /etc/apt/sources.list.d/brave-browser-release.list
-
-sudo nala update
-sudo nala install brave-browser -y
+sudo snap install brave
 
 # creating project setup
 mkdir ~/development
