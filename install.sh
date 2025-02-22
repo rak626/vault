@@ -34,7 +34,7 @@ wget -qO - https://mirror.mwt.me/shiftkey-desktop/gpgkey | gpg --dearmor | sudo 
 sudo sh -c 'echo "deb [arch=amd64 signed-by=/usr/share/keyrings/mwt-desktop.gpg] https://mirror.mwt.me/shiftkey-desktop/deb/ any main" > /etc/apt/sources.list.d/mwt-desktop.list'
 
 sudo nala update
-sudo nala install github-dektop -y
+sudo nala install github-desktop -y
 
 # docker setup
 
