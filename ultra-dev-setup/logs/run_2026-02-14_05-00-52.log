@@ -1,0 +1,100 @@
+
+Select install mode:
+1) Install ALL modules
+2) Ask before each module
+
+Enter choice (1 or 2): Run base_packages.sh ? (y/n): [INFO] Skipping base_packages.sh
+Run firefox.sh ? (y/n): [INFO] Skipping firefox.sh
+Run vscode.sh ? (y/n): [INFO] Running vscode.sh
+[INFO] Installing VS Code
+deb [arch=amd64 signed-by=/etc/apt/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Hit:1 https://dl.google.com/linux/chrome/deb stable InRelease
+Hit:2 http://in.archive.ubuntu.com/ubuntu questing InRelease
+Get:3 https://packages.microsoft.com/repos/code stable InRelease [3,590 B]
+Hit:4 http://security.ubuntu.com/ubuntu questing-security InRelease
+Get:5 https://packages.microsoft.com/repos/code stable/main amd64 Packages [21.6 kB]
+Hit:6 http://in.archive.ubuntu.com/ubuntu questing-updates InRelease
+Hit:7 http://in.archive.ubuntu.com/ubuntu questing-backports InRelease
+Fetched 25.2 kB in 1s (27.7 kB/s)
+Reading package lists...
+Building dependency tree...
+Reading state information...
+All packages are up to date.
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Solving dependencies...
+Installing:
+  code
+
+Summary:
+  Upgrading: 0, Installing: 1, Removing: 0, Not Upgrading: 0
+  Download size: 117 MB
+  Space needed: 482 MB / 448 GB available
+
+Get:1 https://packages.microsoft.com/repos/code stable/main amd64 code amd64 1.109.3-1770920364 [117 MB]
+Preconfiguring packages ...
+Fetched 117 MB in 31s (3,806 kB/s)
+Selecting previously unselected package code.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 162110 files and directories currently installed.)
+Preparing to unpack .../code_1.109.3-1770920364_amd64.deb ...
+Unpacking code (1.109.3-1770920364) ...
+Setting up code (1.109.3-1770920364) ...
+Processing triggers for gnome-menus (3.36.0-3ubuntu2) ...
+Processing triggers for shared-mime-info (2.4-5build2) ...
+Processing triggers for desktop-file-utils (0.28-1) ...
+Run brave.sh ? (y/n): [INFO] Running brave.sh
+[INFO] Installing Brave
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+curl is already the newest version (8.14.1-2ubuntu1).
+Solving dependencies...
+Summary:
+  Upgrading: 0, Installing: 0, Removing: 0, Not Upgrading: 0
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Get:1 https://brave-browser-apt-release.s3.brave.com stable InRelease [7,547 B]
+Hit:2 https://dl.google.com/linux/chrome/deb stable InRelease
+Get:3 https://brave-browser-apt-release.s3.brave.com stable/main arm64 Packages [27.0 kB]
+Get:4 https://brave-browser-apt-release.s3.brave.com stable/main amd64 Packages [27.1 kB]
+Hit:5 https://packages.microsoft.com/repos/code stable InRelease
+Hit:6 http://in.archive.ubuntu.com/ubuntu questing InRelease
+Hit:7 http://security.ubuntu.com/ubuntu questing-security InRelease
+Hit:8 http://in.archive.ubuntu.com/ubuntu questing-updates InRelease
+Hit:9 http://in.archive.ubuntu.com/ubuntu questing-backports InRelease
+Fetched 61.6 kB in 1s (58.5 kB/s)
+Reading package lists...
+Building dependency tree...
+Reading state information...
+All packages are up to date.
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Solving dependencies...
+Installing:
+  brave-browser
+
+Installing dependencies:
+  brave-keyring
+
+Summary:
+  Upgrading: 0, Installing: 2, Removing: 0, Not Upgrading: 0
+  Download size: 129 MB
+  Space needed: 433 MB / 448 GB available
+
+Continue? [Y/n] Abort.
+❌ Error in module: brave.sh line 55

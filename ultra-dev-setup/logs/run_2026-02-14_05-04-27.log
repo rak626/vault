@@ -1,0 +1,71 @@
+
+Select install mode:
+1) Install ALL modules
+2) Ask before each module
+
+Enter choice (1 or 2): Run base_packages.sh ? (y/n): [INFO] Skipping base_packages.sh
+Run firefox.sh ? (y/n): [INFO] Skipping firefox.sh
+Run vscode.sh ? (y/n): [INFO] Skipping vscode.sh
+Run brave.sh ? (y/n): [INFO] Running brave.sh
+[INFO] Installing Brave
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+curl is already the newest version (8.14.1-2ubuntu1).
+Solving dependencies...
+Summary:
+  Upgrading: 0, Installing: 0, Removing: 0, Not Upgrading: 0
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Hit:1 https://packages.microsoft.com/repos/code stable InRelease
+Hit:2 https://brave-browser-apt-release.s3.brave.com stable InRelease
+Hit:3 https://dl.google.com/linux/chrome/deb stable InRelease
+Hit:4 http://in.archive.ubuntu.com/ubuntu questing InRelease
+Hit:5 http://security.ubuntu.com/ubuntu questing-security InRelease
+Hit:6 http://in.archive.ubuntu.com/ubuntu questing-updates InRelease
+Hit:7 http://in.archive.ubuntu.com/ubuntu questing-backports InRelease
+Reading package lists...
+Building dependency tree...
+Reading state information...
+All packages are up to date.
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Solving dependencies...
+Installing:
+  brave-browser
+
+Installing dependencies:
+  brave-keyring
+
+Summary:
+  Upgrading: 0, Installing: 2, Removing: 0, Not Upgrading: 0
+  Download size: 129 MB
+  Space needed: 433 MB / 448 GB available
+
+Get:1 https://brave-browser-apt-release.s3.brave.com stable/main amd64 brave-keyring all 1.19 [8,116 B]
+Get:2 https://brave-browser-apt-release.s3.brave.com stable/main amd64 brave-browser amd64 1.87.186 [129 MB]
+Fetched 129 MB in 13s (9,843 kB/s)
+Selecting previously unselected package brave-keyring.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 166993 files and directories currently installed.)
+Preparing to unpack .../brave-keyring_1.19_all.deb ...
+Unpacking brave-keyring (1.19) ...
+Selecting previously unselected package brave-browser.
+Preparing to unpack .../brave-browser_1.87.186_amd64.deb ...
+Unpacking brave-browser (1.87.186) ...
+Setting up brave-keyring (1.19) ...
+Setting up brave-browser (1.87.186) ...
+update-alternatives: using /usr/bin/brave-browser-stable to provide /usr/bin/x-www-browser (x-www-browser) in auto mode
+update-alternatives: using /usr/bin/brave-browser-stable to provide /usr/bin/gnome-www-browser (gnome-www-browser) in auto mode
+update-alternatives: using /usr/bin/brave-browser-stable to provide /usr/bin/brave-browser (brave-browser) in auto mode
+Processing triggers for gnome-menus (3.36.0-3ubuntu2) ...
+Processing triggers for man-db (2.13.1-1) ...
+Processing triggers for desktop-file-utils (0.28-1) ...
+Run spotify.sh ? (y/n): 

@@ -1,0 +1,23 @@
+
+Select install mode:
+1) Install ALL modules
+2) Ask before each module
+
+Enter choice (1 or 2): Run base_packages.sh ? (y/n): [INFO] Skipping base_packages.sh
+Run firefox.sh ? (y/n): [INFO] Skipping firefox.sh
+Run vscode.sh ? (y/n): [INFO] Skipping vscode.sh
+Run brave.sh ? (y/n): [INFO] Skipping brave.sh
+Run spotify.sh ? (y/n): [INFO] Skipping spotify.sh
+Run docker.sh ? (y/n): [INFO] Skipping docker.sh
+Run dbeaver.sh ? (y/n): [INFO] Skipping dbeaver.sh
+Run dev_sysctl.sh ? (y/n): [INFO] Skipping dev_sysctl.sh
+Run zram.sh ? (y/n): [INFO] Skipping zram.sh
+Run gnome_tuning.sh ? (y/n): [INFO] Running gnome_tuning.sh
+[INFO] Applying GNOME tuning
+Unit tracker-miner-fs-3.service does not exist, proceeding anyway.
+Created symlink '/home/rakesh/.config/systemd/user/tracker-miner-fs-3.service' → '/dev/null'.
+Unit tracker-store.service does not exist, proceeding anyway.
+Created symlink '/home/rakesh/.config/systemd/user/tracker-store.service' → '/dev/null'.
+Run shortcuts.sh ? (y/n): [INFO] Running shortcuts.sh
+bash: /home/rakesh/project/ultra-dev-setup/modules/shortcuts.sh: No such file or directory
+❌ Error in module: shortcuts.sh line 55

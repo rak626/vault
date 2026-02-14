@@ -1,0 +1,18 @@
+
+Select install mode:
+1) Install ALL modules
+2) Ask before each module
+
+Enter choice (1 or 2): Run base_packages.sh ? (y/n): [INFO] Skipping base_packages.sh
+Run firefox.sh ? (y/n): [INFO] Skipping firefox.sh
+Run vscode.sh ? (y/n): [INFO] Skipping vscode.sh
+Run brave.sh ? (y/n): [INFO] Skipping brave.sh
+Run spotify.sh ? (y/n): [INFO] Skipping spotify.sh
+Run docker.sh ? (y/n): [INFO] Skipping docker.sh
+Run dbeaver.sh ? (y/n): [INFO] Skipping dbeaver.sh
+Run dev_sysctl.sh ? (y/n): [INFO] Skipping dev_sysctl.sh
+Run zram.sh ? (y/n): [INFO] Skipping zram.sh
+Run gnome_tuning.sh ? (y/n): [INFO] Skipping gnome_tuning.sh
+Run shortcuts.sh ? (y/n): [INFO] Running shortcuts.sh
+[INFO] Applying keyboard shortcuts
+[INFO] All selected modules completed

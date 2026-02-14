@@ -1,0 +1,16 @@
+
+Select install mode:
+1) Install ALL modules
+2) Ask before each module
+
+Enter choice (1 or 2): Run base_packages.sh ? (y/n): [INFO] Skipping base_packages.sh
+Run jetbrains_toolbox.sh ? (y/n): [INFO] Running jetbrains_toolbox.sh
+[INFO] Checking JetBrains Toolbox
+[INFO] Installing JetBrains Toolbox
+[INFO] Downloading latest version...
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   138  100   138    0     0    556      0 --:--:-- --:--:-- --:--:--   558
+  2  136M    2 2895k    0     0  3795k      0  0:00:36 --:--:--  0:00:36 3795k 10  136M   10 13.7M    0     0  8081k      0  0:00:17  0:00:01  0:00:16 11.1M 17  136M   17 23.9M    0     0  8992k      0  0:00:15  0:00:02  0:00:13 10.7M 24  136M   24 33.4M    0     0  9192k      0  0:00:15  0:00:03  0:00:12 10.3M 31  136M   31 42.7M    0     0  9253k      0  0:00:15  0:00:04  0:00:11 10.0M 38  136M   38 52.2M    0     0  9325k      0  0:00:14  0:00:05  0:00:09  9.9M 45  136M   45 61.5M    0     0  9370k      0  0:00:14  0:00:06  0:00:08 9821k 52  136M   52 70.8M    0     0  9368k      0  0:00:14  0:00:07  0:00:07 9573k 59  136M   59 80.4M    0     0  9431k      0  0:00:14  0:00:08  0:00:06 9610k 65  136M   65 89.7M    0     0  9446k      0  0:00:14  0:00:09  0:00:05 9630k 72  136M   72 99.2M    0     0  9462k      0  0:00:14  0:00:10  0:00:04 9619k 78  136M   78  107M    0     0  9380k      0  0:00:14  0:00:11  0:00:03 9394k 86  136M   86  117M    0     0  9472k      0  0:00:14  0:00:12  0:00:02 9633k 93  136M   93  127M    0     0  9495k      0  0:00:14  0:00:13  0:00:01 9606k100  136M  100  136M    0     0  9506k      0  0:00:14  0:00:14 --:--:-- 9623k
+[INFO] ERROR: Toolbox binary not found after extraction
+❌ Error in module: jetbrains_toolbox.sh line 56

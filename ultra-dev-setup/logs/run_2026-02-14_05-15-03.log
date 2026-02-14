@@ -1,0 +1,54 @@
+
+Select install mode:
+1) Install ALL modules
+2) Ask before each module
+
+Enter choice (1 or 2): Run base_packages.sh ? (y/n): [INFO] Skipping base_packages.sh
+Run firefox.sh ? (y/n): [INFO] Running firefox.sh
+[INFO] Configuring Firefox (Full Snap removal + Mozilla official install)
+[INFO] Removing snap Firefox
+firefox removed (snap data snapshot saved)
+[INFO] Removing snap Firefox snapshots
+[INFO] Removing snap snapshot ID 1
+Snapshot #1 forgotten.
+[INFO] Removing snap leftover data
+[INFO] Removing apt Firefox transitional package
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Package 'firefox-locale-en' is not installed, so not removed
+Solving dependencies...
+REMOVING:
+  firefox*
+
+Summary:
+  Upgrading: 0, Installing: 0, Removing: 1, Not Upgrading: 0
+  Freed space: 124 kB
+
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 168627 files and directories currently installed.)
+Removing firefox (1:1snap1-0ubuntu7) ...
+Processing triggers for hicolor-icon-theme (0.18-2) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 168613 files and directories currently installed.)
+Purging configuration files for firefox (1:1snap1-0ubuntu7) ...
+[INFO] Blocking Firefox from Ubuntu repo
+Package: firefox*
+Pin: release o=Ubuntu*
+Pin-Priority: -1
+[INFO] Installing Mozilla Firefox binary
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   136  100   136    0     0    384      0 --:--:-- --:--:-- --:--:--   384100   136  100   136    0     0    384      0 --:--:-- --:--:-- --:--:--   384
+ 12 77.1M   12 9936k    0     0  7955k      0  0:00:09  0:00:01  0:00:08 7955k 25 77.1M   25 19.8M    0     0  9042k      0  0:00:08  0:00:02  0:00:06 10.1M 37 77.1M   37 29.0M    0     0  9150k      0  0:00:08  0:00:03  0:00:05 9895k 49 77.1M   49 37.9M    0     0  9139k      0  0:00:08  0:00:04  0:00:04 9631k 61 77.1M   61 47.5M    0     0  9272k      0  0:00:08  0:00:05  0:00:03 9683k 74 77.1M   74 57.6M    0     0  9453k      0  0:00:08  0:00:06  0:00:02 9827k 86 77.1M   86 66.4M    0     0  9389k      0  0:00:08  0:00:07  0:00:01 9545k 97 77.1M   97 75.4M    0     0  9366k      0  0:00:08  0:00:08 --:--:-- 9507k100 77.1M  100 77.1M    0     0  9383k      0  0:00:08  0:00:08 --:--:-- 9632k
+[Desktop Entry]
+Name=Firefox
+Exec=/opt/firefox/firefox %u
+Terminal=false
+Type=Application
+Icon=/opt/firefox/browser/chrome/icons/default/default128.png
+Categories=Network;WebBrowser;
+[INFO] Mozilla Firefox installation complete
+Run vscode.sh ? (y/n): [INFO] Skipping vscode.sh
+Run brave.sh ? (y/n): 

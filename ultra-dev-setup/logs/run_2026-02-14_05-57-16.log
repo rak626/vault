@@ -1,0 +1,19 @@
+
+Select install mode:
+1) Install ALL modules
+2) Ask before each module
+
+Enter choice (1 or 2): Run base_packages.sh ? (y/n): [INFO] Skipping base_packages.sh
+Run jetbrains_toolbox.sh ? (y/n): [INFO] Running jetbrains_toolbox.sh
+[INFO] Checking JetBrains Toolbox
+[INFO] Installing JetBrains Toolbox
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   138  100   138    0     0    510      0 --:--:-- --:--:-- --:--:--   511
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  5922  100  5922    0     0   7648      0 --:--:-- --:--:-- --:--:-- 20006
+
+gzip: stdin: not in gzip format
+tar: Child returned status 1
+tar: Error is not recoverable: exiting now
+[INFO] ERROR: Toolbox extraction failed
+❌ Error in module: jetbrains_toolbox.sh line 56

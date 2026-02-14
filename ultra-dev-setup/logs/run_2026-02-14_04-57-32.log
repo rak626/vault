@@ -1,0 +1,28 @@
+
+Select install mode:
+1) Install ALL modules
+2) Ask before each module
+
+Enter choice (1 or 2): Run base_packages.sh ? (y/n): [INFO] Running base_packages.sh
+[INFO] Installing base packages
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Hit:1 https://dl.google.com/linux/chrome/deb stable InRelease
+Hit:2 http://in.archive.ubuntu.com/ubuntu questing InRelease
+Hit:3 http://security.ubuntu.com/ubuntu questing-security InRelease
+Hit:4 http://in.archive.ubuntu.com/ubuntu questing-updates InRelease
+Hit:5 http://in.archive.ubuntu.com/ubuntu questing-backports InRelease
+Reading package lists...
+Building dependency tree...
+Reading state information...
+All packages are up to date.
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Error: Unable to locate package gnome-shell-extensions-manager
+ln: No such file or directory
+Run firefox.sh ? (y/n): 

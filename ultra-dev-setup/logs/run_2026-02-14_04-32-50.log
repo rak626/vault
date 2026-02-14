@@ -1,0 +1,44 @@
+
+Select install mode:
+1) Install ALL modules
+2) Ask before each module
+
+Enter choice (1 or 2): Run base_packages.sh ? (y/n): [INFO] Running base_packages.sh
+[INFO] Installing base packages
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Get:1 https://brave-browser-apt-release.s3.brave.com stable InRelease [7,547 B]
+Err:1 https://brave-browser-apt-release.s3.brave.com stable InRelease
+  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 0686B78420038257
+Hit:2 https://dl.google.com/linux/chrome/deb stable InRelease
+Hit:3 http://in.archive.ubuntu.com/ubuntu questing InRelease
+Hit:4 http://security.ubuntu.com/ubuntu questing-security InRelease
+Hit:5 http://in.archive.ubuntu.com/ubuntu questing-updates InRelease
+Hit:6 http://in.archive.ubuntu.com/ubuntu questing-backports InRelease
+Reading package lists...
+Warning: OpenPGP signature verification failed: https://brave-browser-apt-release.s3.brave.com stable InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 0686B78420038257
+Error: The repository 'https://brave-browser-apt-release.s3.brave.com stable InRelease' is not signed.
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Package tldr is not available, but is referred to by another package.
+This may mean that the package is missing, has been obsoleted, or
+is only available from another source
+
+Error: Package 'tldr' has no installation candidate
+ln: No such file or directory
+Run firefox.sh ? (y/n): [INFO] Skipping firefox.sh
+Run vscode.sh ? (y/n): [INFO] Skipping vscode.sh
+Run brave.sh ? (y/n): [INFO] Skipping brave.sh
+Run spotify.sh ? (y/n): [INFO] Skipping spotify.sh
+Run docker.sh ? (y/n): [INFO] Skipping docker.sh
+Run dbeaver.sh ? (y/n): [INFO] Skipping dbeaver.sh
+Run dev_sysctl.sh ? (y/n): [INFO] Skipping dev_sysctl.sh
+Run zram.sh ? (y/n): [INFO] Skipping zram.sh
+Run gnome_tuning.sh ? (y/n): [INFO] Skipping gnome_tuning.sh
+Run shortcuts.sh ? (y/n): [INFO] Skipping shortcuts.sh
+[INFO] All selected modules completed

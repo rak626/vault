@@ -1,0 +1,17 @@
+
+Select install mode:
+1) Install ALL modules
+2) Ask before each module
+
+Enter choice (1 or 2): Run base_packages.sh ? (y/n): [INFO] Skipping base_packages.sh
+Run jetbrains_toolbox.sh ? (y/n): [INFO] Running jetbrains_toolbox.sh
+[INFO] Checking JetBrains Toolbox
+[INFO] Installing JetBrains Toolbox
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   138  100   138    0     0    460      0 --:--:-- --:--:-- --:--:--   461
+  2  136M    2 3229k    0     0  3799k      0  0:00:36 --:--:--  0:00:36 3799k 10  136M   10 14.7M    0     0  7966k      0  0:00:17  0:00:01  0:00:16 11.1M 18  136M   18 24.7M    0     0  8871k      0  0:00:15  0:00:02  0:00:13 10.7M 24  136M   24 33.9M    0     0  9030k      0  0:00:15  0:00:03  0:00:12 10.2M 31  136M   31 43.2M    0     0  9090k      0  0:00:15  0:00:04  0:00:11  9.9M 38  136M   38 52.2M    0     0  9139k      0  0:00:15  0:00:05  0:00:10  9.8M 44  136M   44 61.1M    0     0  9144k      0  0:00:15  0:00:06  0:00:09 9592k 51  136M   51 70.6M    0     0  9202k      0  0:00:15  0:00:07  0:00:08 9391k 58  136M   58 79.6M    0     0  9212k      0  0:00:15  0:00:08  0:00:07 9351k 65  136M   65 89.4M    0     0  9288k      0  0:00:15  0:00:09  0:00:06 9481k 72  136M   72 98.7M    0     0  9314k      0  0:00:14  0:00:10  0:00:04 9516k 76  136M   76  104M    0     0  8990k      0  0:00:15  0:00:11  0:00:04 8780k 84  136M   84  115M    0     0  9182k      0  0:00:15  0:00:12  0:00:03 9151k 91  136M   91  125M    0     0  9254k      0  0:00:15  0:00:13  0:00:02 9331k 98  136M   98  134M    0     0  9296k      0  0:00:15  0:00:14  0:00:01 9309k100  136M  100  136M    0     0  9305k      0  0:00:14  0:00:14 --:--:-- 9283k
+[INFO] Launching Toolbox installer
+[INFO] Toolbox installer launched (may still be installing in background)
+Run firefox.sh ? (y/n): [INFO] Skipping firefox.sh
+Run vscode.sh ? (y/n): 
