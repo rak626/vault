@@ -11,7 +11,7 @@ BASE="/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings"
 TERMINAL_CMD="gnome-terminal"
 
 if command_exists ptyxis; then
-  TERMINAL_CMD="ptyxis"
+  TERMINAL_CMD="ptyxis --new-window"
 elif command_exists kgx; then
   TERMINAL_CMD="kgx"
 elif command_exists gnome-terminal; then
