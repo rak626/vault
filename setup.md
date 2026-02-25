@@ -2,15 +2,21 @@
 
 ## firefox setup
 
-- go to 
+- go to
 
-    ``` about:config ```
+        about:config
 
-    ```full-screen-api.warning.timeout```
+- full screen warning remove 
 
-    ```full-screen-api.warning.delay ```
+        full-screen-api.warning.timeout
 
-    ```ui.key.menuAccessKeyFocuses```
+- full screen warning delay remove 
+
+        full-screen-api.warning.delay
+
+- alt key problem fixed
+
+        ui.key.menuAccessKeyFocuses
 
 ---
 ## Docker user add
