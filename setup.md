@@ -53,4 +53,5 @@
 - global setup for git (local)
 
         git config --global user.email "rakeshacot@gmail.com"
+        
         git config --global user.name "rak626"
